@@ -9,6 +9,8 @@ These Docker images fulfil the following requirements:
 * The Docker image do support the current version of the contained PHP tool
 * (The Docker image are based on Alpine Linux for minimimal filesize usage)
 
+---
+
 ### Composer
 
 Composer is a tool for dependency management in PHP, written in PHP.
@@ -21,6 +23,8 @@ Usage:
 ```
 docker run --rm --interactive --tty --volume $PWD:/app composer install
 ```
+
+---
 
 ### Humbug
 
@@ -35,6 +39,8 @@ Usage:
 docker run -v $PWD:/app --rm tommymuehle/docker-php-humbug
 ```
 
+---
+
 ### PHPCBF
 
 PHP_CodeSniffer's phpcbf is a script to automatically correct coding standard violations.
@@ -47,6 +53,8 @@ Usage:
 ```
 docker run --rm --user $(id -u):$(id -g) -v $(pwd):/project herloct/phpcbf
 ```
+
+---
 
 ### PHPCS Fixer
 
@@ -61,6 +69,8 @@ Usage:
 docker run --rm -v /local/path:/project herloct/phpcs
 ```
 
+---
+
 ### PHP Coding Standards Fixer
 
 The Coding Standards fixer for your code.
@@ -73,6 +83,8 @@ Usage:
 ```
 docker run --rm --user $(id -u):$(id -g) -v /local/path:/project herloct/php-cs-fixer
 ```
+
+---
 
 ### PHPStan
 
@@ -87,6 +99,8 @@ Usage:
 docker run -v $PWD:/app --rm phpstan/phpstan analyse /app/src
 ```
 
+---
+
 ### PHPUnit
 
 The PHP Unit Testing framework.
@@ -100,13 +114,14 @@ Usage:
 docker run -v $(pwd):/app --rm phpunit/phpunit run
 ```
 
+---
+
 ### Security-Checker
 
 Check your PHP project for known security issues!
 
 | [Project](https://security.sensiolabs.org/) | [Docker Hub](https://hub.docker.com/r/jsixc/sensiolabs-security-checker/) | [Dockerfile Repository](https://github.com/jak/sensiolabs-security-checker-docker)
 | ------------- | ------------- | ------------- |
-
 
 Usage:
 
