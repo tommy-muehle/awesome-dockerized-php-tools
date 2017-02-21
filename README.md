@@ -1,6 +1,13 @@
 # Awesome Dockerized PHP tools
 
-A curated list of amazingly awesome Dockerized tools. In alphabetical order.
+> A curated list of amazingly awesome Dockerized PHP tools.
+
+These Docker images fulfil the following requirements:
+
+* The Docker image must be availabe via Docker Hub
+* The Dockerfile source must be available (on Github, Bitbucket, ...)
+* The Docker image do support the current version of the contained PHP tool
+* (The Docker image are based on Alpine Linux for minimimal filesize usage)
 
 ### Composer
 
