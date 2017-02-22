@@ -11,6 +11,19 @@ These Docker images fulfil the following requirements:
 
 ---
 
+### Codeception
+
+Codeception is a modern full-stack testing framework for PHP.
+
+| [Project](http://codeception.com/) | [Docker Hub](https://hub.docker.com/r/codeception/codeception/) | [Dockerfile Repository](https://github.com/Codeception/Codeception)
+| ------------- | ------------- | ------------- |
+
+Usage:
+
+```
+docker run -v ${PWD}:/project codeception/codeception run
+```
+
 ### Composer
 
 Composer is a tool for dependency management in PHP, written in PHP.
