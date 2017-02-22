@@ -24,6 +24,8 @@ Usage:
 docker run -v ${PWD}:/project codeception/codeception run
 ```
 
+---
+
 ### Composer
 
 Composer is a tool for dependency management in PHP, written in PHP.
