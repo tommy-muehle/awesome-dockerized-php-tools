@@ -45,13 +45,13 @@ docker run --rm --interactive --tty --volume $PWD:/app composer install
 
 Humbug is a Mutation Testing framework for PHP to measure the real effectiveness of your test suites and assist in their improvement.
 
-| [Project](https://github.com/padraic/humbug) | [Docker Hub](https://hub.docker.com/r/tommymuehle/docker-php-humbug/) | [Dockerfile Repository](https://github.com/tommy-muehle/docker-php-humbug)
+| [Project](https://github.com/padraic/humbug) | [Docker Hub](https://hub.docker.com/r/dockerizedphp/humbug/) | [Dockerfile Repository](https://github.com/dockerized-php/humbug)
 | ------------- | ------------- | ------------- |
 
 Usage:
 
 ```
-docker run -v $PWD:/app --rm tommymuehle/docker-php-humbug
+docker run -v $PWD:/app --rm dockerizedphp/humbug
 ```
 
 ---
