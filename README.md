@@ -101,6 +101,21 @@ docker run --rm --user $(id -u):$(id -g) -v /local/path:/project herloct/php-cs-
 
 ---
 
+### PHPLOC
+
+A tool for quickly measuring the size of a PHP project.
+
+| [Project](https://github.com/sebastianbergmann/phploc) | [Docker Hub](https://hub.docker.com/r/dockerizedphp/phploc/) | [Dockerfile Repository](https://github.com/dockerized-php/phploc)
+| ------------- | ------------- | ------------- |
+
+Usage:
+
+```
+docker run -v $PWD:/app --rm dockerizedphp/phploc
+```
+
+---
+
 ### PHPStan
 
 PHP Static Analysis Tool - discover bugs in your code without running it!
